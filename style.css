@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+ 
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #8c908f;
+}
+
+.logoPessoal {
+    margin-left: 15px;
+    padding-top: 15px;
+    width: 5%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+    gap: 90px;
+}
+
+.area-input {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+    resize: none;
+    padding: 16px;
+}
+
+.area-input::placeholder {
+    color: #000000;
+}
+
+.area-input:focus {
+    outline: none;
+}
+
+.mensagem {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    resize: none;
+    margin: 10px;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 60px;
+    gap: 70px;
+}
+
+.btn-descripto {
+    background-color: #302b2b;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 220px;
+}
+.btn-descripto:hover {
+    color: #000000;
+    background-color: aliceblue;
+    border: 2px solid #000000;
+}
+
+.btn-cripto {
+    background-color: #302b2b;
+    border: 2px solid #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 67px;
+    width: 220px;
+    color: #ffffff;
+}
+
+.btn-cripto:hover {
+    color: #000000;
+    background-color: aliceblue;
+    border: 2px solid #000000;
+}
+
+.btn-copiar {
+    border: 2px solid #ffffff;
+    background-color: #302b2b;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 68px;
+    margin-top: 49px;
+    margin-left: 40px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-copiar:hover {
+    color: #000000;
+    background-color: aliceblue;
+    border: 2px solid #000000;
+}
+
+
+.info {
+    display: inline;
+    font-size: 22px;
+    color: #000000;
+}
+
+.rodape {
+    text-align: center;
+    color: #000000;
+}
